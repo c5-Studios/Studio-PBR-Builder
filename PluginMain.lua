@@ -8,9 +8,9 @@ local textureURL = ""
 
 local toolbar = plugin:CreateToolbar("PBR Importer Options")
 local buttons = {
-		toolbar:CreateButton("Blocks","Imports the textures as blocks","rbxassetid://11111"),
-		toolbar:CreateButton("Spheres","Imports the textures as spheres","rbxassetid://11111"),
-		toolbar:CreateButton("Raw","Imports the textures as SurfaceAppearance's","rbxassetid://11111"),
+	toolbar:CreateButton("Blocks","Imports the textures as blocks","rbxassetid://11111"),
+	toolbar:CreateButton("Spheres","Imports the textures as spheres","rbxassetid://11111"),
+	toolbar:CreateButton("Raw","Imports the textures as SurfaceAppearance's","rbxassetid://11111"),
 }
 
 local 
